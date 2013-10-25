@@ -5,6 +5,8 @@
 
 Inspired by [twitter.com][twitter]'s autocomplete search functionality, typeahead.js is a fast and [fully-featured][features] autocomplete library.
 
+Forked by http://github.com/stevegibbings/ to add typeahead:hintupdated
+
 Getting Started
 ---------------
 
@@ -195,7 +197,9 @@ typeahead.js triggers the following custom events:
 
 * `typeahead:selected` – Triggered when a suggestion from the dropdown menu is explicitly selected. The datum for the selected suggestion is passed to the event handler as an argument in addition to the name of the dataset it originated from.
 
-* `typeahead:autocompleted` – Triggered when the query is autocompleted. The datum used for autocompletion is passed to the event handler as an argument in addition to the name of the dataset it originated from.
+* `typeahead:autocompleted` – Triggered when the query is autocompleted by tab key or arrow keys. The datum used for autocompletion is passed to the event handler as an argument in addition to the name of the dataset it originated from.
+
+* `typeahead:hintupdated – Triggered when the hint is updated as a user types. The datum used for the hint is passed to the event handler as an argument in addition to the name of the dataset it originated from.
 
 All custom events are triggered on the element initialized as a typeahead.
 

@@ -15,6 +15,10 @@ For more information on semantic versioning, please visit http://semver.org/.
 
 ---
 
+### Fork 25 October 2013 https://github.com/stevegibbings/typeahead.js ###
+
+* Added typeahead:hintupdate so it can be used as a default selection.
+
 ### 0.9.3 June 24, 2013
 
 * Ensure cursor visibility in menus with overflow. [#209][209]
